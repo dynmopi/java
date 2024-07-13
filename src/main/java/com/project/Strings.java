@@ -1,5 +1,5 @@
 package com.project;
-
+// 4
 public class Strings {
     public static void main(String[] args){
         // strings, são textos armazenados.
