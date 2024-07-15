@@ -53,5 +53,36 @@ public class Loops {
         } while (contagemRegressiva > 0);
         //
 
+
+        // for loops
+        // for (statement 1; statement 2; statement 3) {
+        //     code block
+        // }
+
+        for (int n = 5; n > 0; n--){
+            System.out.println("Usando o for" + n);
+        }
+        // nested loops - loops aninhados
+
+        for (int a = 1; a <= 5; a++){
+            System.out.println("For pai" + a);
+            for (int b = 1; b <= 5; b++){
+                System.out.println("For filho" + b);
+            }
+        }
+        // for-each - "uma para cada"
+
+//        for (type variableName : arrayName) {
+//            // code block to be executed
+//        }
+        String[] cores = {"azul", "preto", "roxo"};
+        for(String m : cores){
+            System.out.println(m);
+        }
+// exemplo prático usando o for
+        int number = 5;
+        for (int t = 0; t <= 10; t++){
+            System.out.println(number + " x " + t + " = " + number*t);
+        }
     }
 }
