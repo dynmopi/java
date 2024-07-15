@@ -33,5 +33,25 @@ public class Loops {
             c++;
         } while (c < 10);
 
+// exemplo 1:
+        int contagemRegressiva = 3;
+//        while (contagemRegressiva > 0){
+//            System.out.println(contagemRegressiva);
+//            contagemRegressiva--;
+//            if (contagemRegressiva == 0){
+//                System.out.println("Feliz ano novo");
+//            }
+//
+//        }
+
+        do {
+            System.out.println(contagemRegressiva);
+            contagemRegressiva--;
+            if(contagemRegressiva == 0){
+                System.out.println("Feliz ano novo, só que diferente");
+            }
+        } while (contagemRegressiva > 0);
+        //
+
     }
 }
