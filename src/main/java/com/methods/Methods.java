@@ -15,7 +15,7 @@ public class Methods {
         // o java possui seus métodos próprios, o grande exemplo é o
         System.out.println("método que serve para imprimir algo na tela");
 
-        // chamando o main, pode ser por múltiplas vezes:
+        // chamando no main, pode ser por múltiplas vezes:
         qualquerMetodo();
         qualquerMetodo();
         qualquerMetodo();
