@@ -12,7 +12,7 @@ public class ClassMethods {
 
     public static void main(String[] args){
         metodoStatic();
-//        metodoPublic(); compilaria um erro, já que não foi criado o objeto
+//      metodoPublic(); compilaria um erro, já que não foi criado o objeto e é public
 
         ClassMethods objeto = new ClassMethods();
         objeto.metodoPublic(); // dessa vez compilou.
