@@ -4,7 +4,7 @@ package com.classes;
 public class OOP {
     int x = 5;
     public static void main(String[] args){
-        // criando um objeto chamado myObj
+        // criando um objeto chamado numeroA e numeroB
         // o nome da class, precisa coincidir na criação do objeto
         OOP numeroA = new OOP();
         // criando mais de um objeto

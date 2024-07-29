@@ -44,6 +44,7 @@ public class Loops {
 //
 //        }
 
+//        int contagemRegressiva = 3;
         do {
             System.out.println(contagemRegressiva);
             contagemRegressiva--;

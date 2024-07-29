@@ -19,6 +19,6 @@ public class Parameters_Args {
         // os parametros são usadas como variáveis dentro dos métodos.
 
         // eles são especificados entre parenteses depois do nome do método
-        imprimir("danrley", 18); // danrley é um argumento.
+        imprimir("danrley", 18); // danrley é um argumento e 18 também
     }
 }

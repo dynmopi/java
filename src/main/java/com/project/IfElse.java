@@ -12,7 +12,7 @@ public class IfElse {
             switch - para especificar muitos blocos alternativos
          */
 
-        if (false){
+        if (true){
             System.out.println("Verdadeiro");
         } else {
             System.out.println("Falso");

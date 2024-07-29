@@ -12,7 +12,7 @@ public class Arrays {
         System.out.println(num.length); // mostra a quantidade de index que esse array tem
 
         // loop através de um array
-
+        // array são matrizes
         for (int i = 0; i < num.length; i++) {
             System.out.println(num[i]);
         }

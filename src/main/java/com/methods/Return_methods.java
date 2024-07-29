@@ -3,7 +3,7 @@ package com.methods;
 
 // quando o void é mencionado, estamos dizendo que o método
 // não irá retornar o valor true. Se caso o void não é iterado
-// então teremos o return dentro do método e o a tipagem do método
+// então teremos o return dentro do método e a tipagem do método
 public class Return_methods {
     static int soma(int x){
         return x + 10;
@@ -16,12 +16,12 @@ public class Return_methods {
 
         // repare que as variáveis são criadas dentro de uma classe
         // isso é denominado escopo.
-        //  System.out.println(num1); não tem como utilizar aqui só depois
+        //  System.out.println(num1); não tem como utilizar aqui, só depois
         // de atribuido
 
         int num1 = somaMetodo(4, 5);
         double num2 = somaMetodoDouble(4.5, 4.2);
-        double num3 = somaMetodo(10, 5);
+        double num3 = somaMetodo(10, 6);
 
         System.out.println("int: "+  num1 + "\ndouble:" + num2 + "\ndouble " +
                 "repetido: " + num3);

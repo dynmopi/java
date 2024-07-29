@@ -21,7 +21,7 @@ public class Strings {
         // concatenação
         System.out.println(apresentacao + txt);
         // caso queira separar as duas strings, utilize o " "
-        // através por método
+        // é possível através por método
         System.out.println(apresentacao.concat(txt));
 
         // numeros são adicionados e strings são concatenados.

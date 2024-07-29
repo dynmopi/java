@@ -1,9 +1,12 @@
 package com.methods;
 // 1
 
-// classe aqui
+// classe em baixo
 public class Methods {
 
+
+
+// classe em cima
     public static void main(String[] args){
         // método, é um bloco de código que só irá funcionar, se CASO for chamado.
         // é possível passar parâmetros nesses métodos.

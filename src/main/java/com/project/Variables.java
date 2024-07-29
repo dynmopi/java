@@ -14,7 +14,7 @@ public class Variables {
         int number = 7;
         System.out.println(number);
 
-        // para atribuir uma constante, utilize a palavra-chave final.
+        // para atribuir uma constante, utilize a palavra-chave: final.
         final float numeroConstante = 3.14f; // adicione o f no final de cada float!
         System.out.println(numeroConstante);
 

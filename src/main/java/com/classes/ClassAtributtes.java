@@ -16,7 +16,7 @@ public class ClassAtributtes {
         // repare que foi alterado o value do atributo x
         // antes, o value era zero, agora é 3.
         System.out.println(meuObj.x); // meuObj é um objeto criado através do new
-        // pelo o fato que houve a criação do segundo objeto com um nome diferente, eu posso utilizar do mesmo atributo, desde que seja reatribuido novamente. Veja linha 13
+        // pelo o fato que houve a criação do segundo objeto com um nome diferente, eu posso utilizar do mesmo atributo, desde que seja reatribuido novamente.
         System.out.println(meuObj2.x); // veja linha 13.
 
         System.out.println(meuObj.y);
