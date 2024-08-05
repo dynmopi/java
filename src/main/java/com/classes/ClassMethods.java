@@ -20,7 +20,7 @@ public class ClassMethods {
 //        ser chamado atraves de objects, pois é um metodo public
     }
 
-
+    // resumindo:
     // o método static, consegue ser acessado sem a criação de objetos
     // enquanto que o public, só pode ser acessado por objetos.
 }
