@@ -4,5 +4,6 @@ package com.classes.multipleClass;
 // 2
 public class Main {
     int x = 5;
+    private String texto = "teste";
 }
 
