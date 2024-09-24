@@ -15,7 +15,7 @@ public class Main {
         // get: retorna o valor da variavel
         // set: declara o valor.
 
-        // isso ajudo muito na manuntenção do código, e na segurança da aplicação
+        // isso ajuda muito na manuntenção do código, e na segurança da aplicação
 
 
     }
