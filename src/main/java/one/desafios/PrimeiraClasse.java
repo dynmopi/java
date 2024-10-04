@@ -1,4 +1,4 @@
-package one;
+package one.desafios;
 // 2
 public class PrimeiraClasse {
     public static void main(String[] args){

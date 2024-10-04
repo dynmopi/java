@@ -1,4 +1,4 @@
-package one;
+package one.desafios;
 // 3
 public class Perfil {
     public static void main(String[] args){

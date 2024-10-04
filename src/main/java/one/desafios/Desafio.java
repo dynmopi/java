@@ -1,4 +1,4 @@
-package one;
+package one.desafios;
 
 public class Desafio {
     public static void main(String[] args){

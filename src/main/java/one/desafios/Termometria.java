@@ -1,4 +1,4 @@
-package one;
+package one.desafios;
 
 public class Termometria {
     public static void main(String[] args) {
