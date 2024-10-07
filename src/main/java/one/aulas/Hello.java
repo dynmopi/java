@@ -1,4 +1,4 @@
-package one;
+package one.aulas;
 // 1
 public class Hello {
     public static void main(String[] args){

@@ -1,4 +1,4 @@
-package one;
+package one.aulas;
 
 import java.util.Scanner; // é um objeto interno do java que permite utilizar metodo
 // para a entrada de dados
