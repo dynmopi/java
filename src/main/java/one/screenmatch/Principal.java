@@ -16,6 +16,7 @@ public class Principal {
         umFilme.avalia(8);
 
         System.out.println("A média do filme é de: " + umFilme.adquireMedia());
+        System.out.println("O total de avaliações é de: " + umFilme.getTotalDeAvaliacoes());
 
 
     }
