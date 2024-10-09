@@ -24,6 +24,7 @@ public class Filme {
         totalDeAvaliacoes++;
     }
 
+
     double adquireMedia() {
         return somaDasAvaliacoes / totalDeAvaliacoes;
     }
@@ -33,7 +34,6 @@ public class Filme {
     public void setNome(String nome) {
         this.nome = nome; // o nome foi incluido atraves do setter
     }
-
 
 
     String getNome() {
