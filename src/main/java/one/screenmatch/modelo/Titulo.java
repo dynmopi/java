@@ -1,6 +1,6 @@
-package one.screenmatch;
+package one.screenmatch.modelo;
 
-public class Filme {
+public class Titulos {
     // Organizando o código
     // Variaveis com os modifiers
     private String nome;
