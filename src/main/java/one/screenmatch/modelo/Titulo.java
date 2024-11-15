@@ -1,6 +1,6 @@
 package one.screenmatch.modelo;
 
-public class Titulos {
+public class Titulo {
     // Organizando o código
     // Variaveis com os modifiers
     private String nome;
@@ -12,20 +12,20 @@ public class Titulos {
     //
 
     // Operacao do sistema
-    void exibeFichaTecnica() {
+    public void exibeFichaTecnica() {
         System.out.println("Filme: " + nome);
         System.out.println("Ano de lançamento: " + anoDeLancamento);
         System.out.println("Duração em minutos: " + duracaoDeMinutos);
         System.out.println("Incluído no plano: " + incluidoNoPlano);
     }
 
-    void avalia(double nota) {
+    public void avalia(double nota) {
         somaDasAvaliacoes += nota;
         totalDeAvaliacoes++;
     }
 
 
-    double adquireMedia() {
+    public double adquireMedia() {
         return somaDasAvaliacoes / totalDeAvaliacoes;
     }
     //
@@ -36,7 +36,7 @@ public class Titulos {
     }
 
 
-    String getNome() {
+    public String getNome() {
         return nome; // o nome pode ser imprimido também
     }
 
@@ -65,7 +65,7 @@ public class Titulos {
     }
 
 
-    int getTotalDeAvaliacoes() {
+    public int getTotalDeAvaliacoes() {
         return totalDeAvaliacoes;
     }
 }
