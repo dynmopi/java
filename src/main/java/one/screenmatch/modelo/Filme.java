@@ -1,6 +1,8 @@
 package one.screenmatch.modelo;
 
-public class Filme extends Titulo    {
+//import one.screenmatch.calculos.Classificavel;
+
+public class Filme extends Titulo /* implements Classificavel */ {
     private String diretor;
 
     public String getDiretor(){
@@ -10,4 +12,8 @@ public class Filme extends Titulo    {
     public void setDiretor(String diretor){
         this.diretor = diretor;
     }
+
+//    public int getClassificacao(){
+//        return (int) adquireMedia() / 2;
+//    }
 }
