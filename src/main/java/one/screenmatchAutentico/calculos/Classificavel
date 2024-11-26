@@ -1,6 +1,6 @@
-package one.screenmatch.calculos;
-
-
-public interface Classificavel {
-   int getClassificacao();
-}
+//package one.screenmatchAutentico.calculos;
+//
+//
+//public interface Classificavel {
+//   int getClassificacao();
+//}

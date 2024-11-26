@@ -1,4 +1,5 @@
 package one.screenmatchAlura.screenMatch.calculo;
 
-public class Classificacao {
+public interface Classificavel {
+    int getClassificacao();
 }
