@@ -6,8 +6,8 @@ public class Titulo {
     private String nome;
     private int anoDeLancamento;
     private boolean incluidoNoPlano;
-    private double somaDasAvaliacoes;
-    private int totalDeAvaliacoes;
+    public double somaDasAvaliacoes;
+    public int totalDeAvaliacoes;
     private int duracaoDeMinutos;
     //
 

@@ -1,5 +1,7 @@
 package one.screenmatch;
 
+import one.screenmatch.calculos.FiltroRecomendacao;
+import one.screenmatch.modelo.Episodio;
 import one.screenmatch.modelo.Filme;
 import one.screenmatch.modelo.Serie;
 
@@ -7,6 +9,7 @@ public class Principal {
     public static void main(String[] args) {
         Filme umFilme = new Filme();
         Serie umaSerie = new Serie();
+        Episodio umEpisodio = new Episodio();
 
         // Primeiro Filme
         umFilme.setNome("Poderoso chefão"); // note, enviou o nome de forma segura
@@ -41,6 +44,14 @@ public class Principal {
         System.out.println("A duração de cada episódio é: " + umaSerie.getMinutosPorEpisodio());
         System.out.println("A duração total de minutos da série é: " + umaSerie.getDuracaoDeMinutos());
 
+        FiltroRecomendacao filtro = new FiltroRecomendacao();
+        filtro.filtra(umFilme);
+
+
+        umEpisodio.setNumero(1);
+        umEpisodio.setSerie("lost");
+        umEpisodio.setTotalVisualizacoes(300);
+        filtro.filtra(umEpisodio);
 
     }
 }
