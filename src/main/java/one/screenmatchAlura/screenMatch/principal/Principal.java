@@ -1,4 +1,4 @@
-package one.screenmatchAlura;
+package one.screenmatchAlura.screenMatch.principal;
 
 import one.screenmatchAlura.screenMatch.calculo.CalculadoraDeTempo;
 import one.screenmatchAlura.screenMatch.calculo.FiltroRecomendacao;
